@@ -13,14 +13,14 @@ window.LOCALE_ES = {
 
 
   'hero.title': 'Social Runners',
-  'hero.body': 'Todos los niveles son bienvenidos. Este es un grupo de running social: nos centramos en charlar, conocer gente y disfrutar de la salida más que en el rendimiento. Hablamos español e inglés. Ritmo lento–medio (unos 5 km), perfecto para principiantes y para quienes prefieren correr de forma relajada.',
+  'hero.body': 'Bienvenidas todas las personas y niveles. Somos un grupo de running social y relajado que se centra en charlar, conocer gente y disfrutar de la carrera más que en el rendimiento. Hablamos español e inglés y solemos correr 5 km a un ritmo fácil y conversacional, perfecto para principiantes y para cualquiera que prefiera una experiencia sin presión.',
 
   'about.title': 'Sobre la comunidad',
-  'about.body': 'Social Runners es para personas a las que les gusta la idea de correr juntas a un ritmo tranquilo, conocer gente nueva y mantener todo sin presión.',
+  'about.body': 'Social Runners es un grupo acogedor para personas que quieren que correr se sienta social, de apoyo y relajado, en lugar de competitivo.',
   'about.who.title': 'Para quién es',
-  'about.who.body': 'Corredores a los que les gustan los ritmos suaves, que disfrutan charlando entre intervalos y que buscan un grupo acogedor en lugar de un club competitivo. Los nuevos corredores son muy bienvenidos.',
+  'about.who.body': 'Para personas que disfrutan de correr a ritmo suave, les gusta charlar entre intervalos y buscan un grupo amable más que un club competitivo. Las personas que empiezan a correr son muy bienvenidas.',
   'about.expect.title': 'Qué puedes esperar',
-  'about.expect.body': 'Quedadas regulares, rutas sencillas, cero presión por el ritmo y un enfoque en la constancia y la comunidad.',
+  'about.expect.body': 'Quedadas regulares, rutas sencillas, cero presión con el ritmo y un enfoque en la conversación, la constancia y la comunidad.',
 
   'runs.title': 'Únete a una quedada',
   'runs.body': 'Organizamos todas las salidas a través de Meetup. Mira la lista de eventos, elige un horario que te venga bien y confirma tu asistencia para que sepamos que vienes.',

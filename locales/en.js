@@ -13,14 +13,14 @@ window.LOCALE_EN = {
 
 
   'hero.title': 'Social Runners',
-  'hero.body': 'All levels welcome. This is a social running group — we focus on chatting, meeting people, and enjoying the run rather than performance. We speak both Spanish and English. Slow-to-medium pace (about 5 km) — perfect for beginners and anyone who prefers a relaxed run.',
+  'hero.body': 'All levels welcome. A relaxed, social running group that focuses on chatting, meeting people, and enjoying the run rather than performance. We speak Spanish and English and usually run 5 km at an easy, conversational pace—perfect for beginners and anyone who prefers a low-pressure run.',
 
   'about.title': 'About the community',
-  'about.body': 'Social Runners is for people who like the idea of running together at a relaxed pace, meeting new people, and keeping things low-pressure.',
+  'about.body': 'Social Runners is a friendly group for people who want running to feel social, supportive, and relaxed instead of competitive.',
   'about.who.title': 'Who it’s for',
   'about.who.body': 'Runners who enjoy easy-paced runs, are happy to chat between intervals, and want a welcoming group rather than a competitive club. New runners are very welcome.',
   'about.expect.title': 'What to expect',
-  'about.expect.body': 'Regular meetups, simple routes, no pressure on pace, and a focus on consistency and community.',
+  'about.expect.body': 'Regular meetups, simple routes, no pressure on pace, and a focus on conversation, consistency, and community.',
 
   'runs.title': 'Join a group run',
   'runs.body': 'We schedule all our runs through Meetup. Check the event list, pick a time that works, and RSVP so we know you’re coming.',

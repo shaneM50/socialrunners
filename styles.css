@@ -8,7 +8,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #f4efdd; /* light beige */
   color: #102820; /* dark green text */
-  font-size: 16px; /* base size */
+  font-size: 18px; /* base size */
   text-align: justify; /* justify all text blocks by default */
 }
 
@@ -154,18 +154,11 @@ a:hover {
   margin: 0 0 14px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  text-align: center;   /* center the heading text */
 }
 
 .hero p {
   margin: 0;
-  max-width: 560px;
-  font-size: 16px;
-  color: #33473f;
-}
-
-.hero-secondary {
-  margin-top: 12px;
-  font-size: 15px;
 }
 
 /* BLOG CAROUSEL */
@@ -233,7 +226,6 @@ a:hover {
 
 .blog-body p {
   margin: 0 0 10px;
-  font-size: 15px;
 }
 
 /* Nav buttons (carousel) */
@@ -279,7 +271,6 @@ section > *:last-child {
 
 .section-title p {
   margin: 0;
-  font-size: 16px;
 }
 
 section a {
@@ -352,6 +343,7 @@ footer {
 
   .hero h1 {
     font-size: 38px;
+    text-align: inherit;
   }
 
   .page {
@@ -375,6 +367,11 @@ footer {
 }
 
 @media (max-width: 600px) {
+  
+  body {
+    font-size: 14px;   /* new base for all text on small screens */
+  }
+  
   .nav {
     padding: 10px 12px;
   }
@@ -418,12 +415,7 @@ footer {
 
   .hero h1 {
     font-size: 32px;
-  }
-
-  .hero p,
-  .section-title p,
-  .blog-body p {
-    font-size: 14px;
+    text-align: inherit;
   }
 
   .blog-nav {
