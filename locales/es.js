@@ -9,6 +9,8 @@ window.LOCALE_ES = {
   'nav.runs': 'Quedadas',
   'nav.first5k': 'Primer 5K',
   'nav.blog': 'Blog',
+  'nav.signup': 'Apúntate',
+
 
   'hero.title': 'Social Runners',
   'hero.body': 'Todos los niveles son bienvenidos. Este es un grupo de running social: nos centramos en charlar, conocer gente y disfrutar de la salida más que en el rendimiento. Hablamos español e inglés. Ritmo lento–medio (unos 5 km), perfecto para principiantes y para quienes prefieren correr de forma relajada.',

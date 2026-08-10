@@ -9,6 +9,7 @@ body {
   background: #f4efdd; /* light beige */
   color: #102820; /* dark green text */
   font-size: 16px; /* base size */
+  text-align: justify; /* justify all text blocks by default */
 }
 
 /* LINKS */
@@ -49,7 +50,7 @@ a:hover {
 /* NAV RIGHT (links + language) */
 .nav-right {
   display: flex;
-  align-items: center;
+  align-items: center; /* keeps links, button, and lang toggle aligned */
   gap: 24px;
 }
 
@@ -64,10 +65,29 @@ a:hover {
 
 .nav-links a {
   color: #f4efdd;
+  padding: 4px 0;
 }
 
 .nav-links a:hover {
   text-decoration: underline;
+}
+
+/* "Sign up" button-style nav item */
+.nav-signup {
+  padding: 7px 16px; /* a bit taller & wider than regular links */
+  border-radius: 999px;
+  background: #f4efdd;
+  color: #0d332b !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 1px solid rgba(244, 239, 221, 0.8);
+  line-height: 1.2;                 /* keep pill compact */
+}
+
+.nav-signup:hover {
+  text-decoration: none;
+  background: #e7dec3;
 }
 
 .lang-toggle {
@@ -146,11 +166,6 @@ a:hover {
 .hero-secondary {
   margin-top: 12px;
   font-size: 15px;
-}
-
-/* BLOG SECTION */
-#blog {
-  padding: 36px 0;
 }
 
 /* BLOG CAROUSEL */
@@ -242,9 +257,17 @@ a:hover {
   cursor: default;
 }
 
+#blog {
+  margin-top: 36px;
+}
+
 /* Generic sections / cards */
 section {
-  padding: 36px 0;
+  padding: 28px 0;
+}
+
+section > *:last-child {
+  margin-bottom: 0;
 }
 
 .section-title h2 {
@@ -257,6 +280,11 @@ section {
 .section-title p {
   margin: 0;
   font-size: 16px;
+}
+
+section a {
+  color: #0b6b4b;
+  font-weight: 500;
 }
 
 .about-grid {
@@ -299,15 +327,6 @@ footer {
   justify-content: space-between;
   gap: 12px;
   flex-wrap: wrap;
-}
-
-/* CTA coloring */
-.read-more a,
-#runs a,
-#first5k a,
-#blog > p a {
-  color: #0b6b4b;
-  font-weight: 500;
 }
 
 /* ------------------------- */
@@ -390,6 +409,11 @@ footer {
 
   .nav-links.open + .lang-toggle {
     display: flex;
+  }
+
+  .nav-signup {
+    padding: 5px 12px;
+    align-self: flex-start;
   }
 
   .hero h1 {

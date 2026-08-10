@@ -9,6 +9,8 @@ window.LOCALE_EN = {
   'nav.runs': 'Group runs',
   'nav.first5k': 'First 5K',
   'nav.blog': 'Blog',
+  'nav.signup': 'Sign up',
+
 
   'hero.title': 'Social Runners',
   'hero.body': 'All levels welcome. This is a social running group — we focus on chatting, meeting people, and enjoying the run rather than performance. We speak both Spanish and English. Slow-to-medium pace (about 5 km) — perfect for beginners and anyone who prefers a relaxed run.',
