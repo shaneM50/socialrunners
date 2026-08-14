@@ -224,6 +224,12 @@ a:hover {
   font-size: 20px;
 }
 
+.blog-body h3 a {
+  color: inherit;        /* keep the heading color */
+  text-decoration: none;
+  font-weight: inherit;  /* avoid the green link weight override */
+}
+
 .blog-body p {
   margin: 0 0 10px;
 }
