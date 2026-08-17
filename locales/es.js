@@ -1,7 +1,5 @@
 // locales/es.js
 window.LOCALE_ES = {
-  'meta.title': 'Social Runners | Quedadas de running',
-  'meta.description': 'Social Runners – un grupo de running a ritmo cómodo. Únete a nuestras quedadas y conoce a otros corredores a través de nuestro grupo de Meetup.',
 
   'nav.brand': 'SOCIAL RUNNERS COMMUNITY',
   'nav.home': 'Inicio',

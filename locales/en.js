@@ -1,8 +1,6 @@
 // locales/en.js
 window.LOCALE_EN = {
-  'meta.title': 'Social Runners | Community Runs',
-  'meta.description': 'Social Runners – an easy-paced running community. Join our regular group runs and meet other runners through our Meetup group.',
-
+ 
   'nav.brand': 'SOCIAL RUNNERS COMMUNITY',
   'nav.home': 'Home',
   'nav.about': 'About',

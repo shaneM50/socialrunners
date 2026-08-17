@@ -161,6 +161,21 @@ a:hover {
   margin: 0;
 }
 
+.hero-illustration {
+  max-width: 960px;          /* keep it in line with content */
+  margin: 2.5rem auto 4rem;  /* space above/below */
+  padding: 0 1.5rem;         /* match page side padding */
+}
+
+.hero-illustration img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12); /* soft card shadow */
+}
+
+
 /* BLOG CAROUSEL */
 .blog-carousel {
   position: relative;
