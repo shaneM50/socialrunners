@@ -6,9 +6,9 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #f4efdd; /* light beige */
-  color: #102820; /* dark green text */
-  font-size: 18px; /* base size */
+  background: #fff4e6; /* warm light peach */
+  color: #2c1b33;      /* deep plum text */
+  font-size: 18px;     /* base size */
   text-align: justify; /* justify all text blocks by default */
 }
 
@@ -27,7 +27,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: #0d332b; /* dark green bar */
+  background: linear-gradient(90deg, #ff7e5f, #feb47b); /* sunset gradient */
 }
 
 .nav {
@@ -44,7 +44,7 @@ a:hover {
   font-size: 15px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #f4efdd;
+  color: #fffaf2;
 }
 
 /* NAV RIGHT (links + language) */
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .nav-links a {
-  color: #f4efdd;
+  color: #fffaf2;
   padding: 4px 0;
 }
 
@@ -76,25 +76,25 @@ a:hover {
 .nav-signup {
   padding: 7px 16px; /* a bit taller & wider than regular links */
   border-radius: 999px;
-  background: #f4efdd;
-  color: #0d332b !important;
+  background: #fffaf2;
+  color: #8a3b2f !important; /* warm brownish text */
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  border: 1px solid rgba(244, 239, 221, 0.8);
-  line-height: 1.2;                 /* keep pill compact */
+  border: 1px solid rgba(255, 250, 242, 0.9);
+  line-height: 1.2; /* keep pill compact */
 }
 
 .nav-signup:hover {
   text-decoration: none;
-  background: #e7dec3;
+  background: #ffe3c2;
 }
 
 .lang-toggle {
   display: flex;
   align-items: center;
   gap: 4px;
-  color: #f4efdd;
+  color: #fffaf2;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -131,7 +131,7 @@ a:hover {
   display: block;
   width: 20px;
   height: 2px;
-  background: #f4efdd;
+  background: #fffaf2;
   margin: 3px 0;
 }
 
@@ -145,7 +145,7 @@ a:hover {
 /* HERO / TITLE */
 .hero {
   padding: 0 0 36px;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .hero h1 {
@@ -154,7 +154,7 @@ a:hover {
   margin: 0 0 14px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  text-align: center;   /* center the heading text */
+  text-align: center; /* center the heading text */
 }
 
 .hero p {
@@ -162,9 +162,9 @@ a:hover {
 }
 
 .hero-illustration {
-  max-width: 960px;          /* keep it in line with content */
-  margin: 2.5rem auto 4rem;  /* space above/below */
-  padding: 0 1.5rem;         /* match page side padding */
+  max-width: 960px; /* keep it in line with content */
+  margin: 2.5rem auto 4rem; /* space above/below */
+  padding: 0 1.5rem; /* match page side padding */
 }
 
 .hero-illustration img {
@@ -174,7 +174,6 @@ a:hover {
   border-radius: 18px;
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12); /* soft card shadow */
 }
-
 
 /* BLOG CAROUSEL */
 .blog-carousel {
@@ -199,11 +198,11 @@ a:hover {
   flex: 0 0 100%;
   scroll-snap-align: start;
   margin-top: 26px;
-  background: #f9f5e4;
-  border: 1px solid rgba(0,0,0,0.12);
+  background: #fff7ec; /* warm off-white card */
+  border: 1px solid rgba(0, 0, 0, 0.06);
   padding: 18px;
   line-height: 1.5;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
 }
 
@@ -225,7 +224,7 @@ a:hover {
 /* Meta + title */
 .meta-row {
   font-size: 13px;
-  color: #555;
+  color: #6d4b63; /* muted plum */
   margin-bottom: 8px;
 }
 
@@ -240,9 +239,9 @@ a:hover {
 }
 
 .blog-body h3 a {
-  color: inherit;        /* keep the heading color */
+  color: inherit;      /* keep the heading color */
   text-decoration: none;
-  font-weight: inherit;  /* avoid the green link weight override */
+  font-weight: inherit; /* avoid any link weight override */
 }
 
 .blog-body p {
@@ -251,7 +250,7 @@ a:hover {
 
 /* Nav buttons (carousel) */
 .blog-nav {
-  background: rgba(13, 51, 43, 0.06);
+  background: rgba(255, 162, 120, 0.12); /* translucent orange */
   border-radius: 999px;
   width: 36px;
   height: 36px;
@@ -262,7 +261,7 @@ a:hover {
   cursor: pointer;
   padding: 0;
   line-height: 1;
-  color: #102820;
+  color: #2c1b33;
 }
 
 .blog-nav:disabled {
@@ -295,7 +294,7 @@ section > *:last-child {
 }
 
 section a {
-  color: #0b6b4b;
+  color: #e76f51; /* sunset coral accent */
   font-weight: 500;
 }
 
@@ -305,12 +304,12 @@ section a {
 }
 
 .card {
-  background: #f9f5e4;
-  border: 1px solid rgba(0,0,0,0.12);
+  background: #fff7ec;
+  border: 1px solid rgba(0, 0, 0, 0.06);
   padding: 18px;
   margin-bottom: 20px;
   line-height: 1.5;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
   border-radius: 8px;
 }
 
@@ -320,7 +319,7 @@ section a {
 
 /* FIRST 5K banded style */
 #first5k {
-  background: #f9f5e4;
+  background: #fff7ec;
   border-radius: 8px;
   padding: 32px 20px;
   margin-top: 36px;
@@ -328,10 +327,11 @@ section a {
 
 /* FOOTER */
 footer {
-  border-top: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
   padding: 26px 0 44px;
   font-size: 13px;
-  color: #555;
+  color: #6d4b63;  /* muted plum */
+  background: #fff1e3; /* subtle warm footer band */
 }
 
 .footer-row {
@@ -388,11 +388,10 @@ footer {
 }
 
 @media (max-width: 600px) {
-  
   body {
-    font-size: 14px;   /* new base for all text on small screens */
+    font-size: 14px; /* new base for all text on small screens */
   }
-  
+
   .nav {
     padding: 10px 12px;
   }
