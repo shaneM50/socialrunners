@@ -317,14 +317,6 @@ section a {
   font-size: 20px;
 }
 
-/* FIRST 5K banded style */
-#first5k {
-  background: #fff7ec;
-  border-radius: 8px;
-  padding: 32px 20px;
-  margin-top: 36px;
-}
-
 /* FOOTER */
 footer {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
@@ -380,10 +372,6 @@ footer {
     width: 32px;
     height: 32px;
     font-size: 24px;
-  }
-
-  #first5k {
-    padding: 24px 16px;
   }
 }
 

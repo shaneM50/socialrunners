@@ -1,60 +1,39 @@
 // locales/es.js
 window.LOCALE_ES = {
-
   'nav.brand': 'SOCIAL RUNNERS COMMUNITY',
   'nav.home': 'Inicio',
   'nav.about': 'Sobre',
   'nav.runs': 'Quedadas',
-  'nav.first5k': 'Primer 5K',
   'nav.blog': 'Blog',
   'nav.signup': 'Apúntate',
 
-
   'hero.title': 'Social Runners',
-  'hero.body': 'Bienvenidas todas las personas y niveles. Somos un grupo de running social y relajado que se centra en charlar, conocer gente y disfrutar de la carrera más que en el rendimiento. Hablamos español e inglés y solemos correr 5 km a un ritmo fácil y conversacional, perfecto para principiantes y para cualquiera que prefiera una experiencia sin presión.',
+  'hero.body': 'Bienvenidas todas las personas y niveles.\nSomos un grupo de running social y relajado que se centra en charlar, conocer gente y disfrutar de la carrera más que en el rendimiento.\nHablamos español e inglés y solemos correr 5 km a un ritmo fácil y conversacional, perfecto para principiantes y para cualquiera que prefiera una experiencia sin presión.',
 
   'about.title': 'Sobre la comunidad',
   'about.body': 'Social Runners es un grupo acogedor para personas que quieren que correr se sienta social, de apoyo y relajado, en lugar de competitivo.',
   'about.who.title': 'Para quién es',
-  'about.who.body': 'Para personas que disfrutan de correr a ritmo suave, les gusta charlar entre intervalos y buscan un grupo amable más que un club competitivo. Las personas que empiezan a correr son muy bienvenidas.',
+  'about.who.body': 'Para personas que disfrutan de correr a ritmo suave, les gusta charlar entre intervalos y buscan un grupo amable más que un club competitivo.\nLas personas que empiezan a correr son muy bienvenidas.',
   'about.expect.title': 'Qué puedes esperar',
   'about.expect.body': 'Quedadas regulares, rutas sencillas, cero presión con el ritmo y un enfoque en la conversación, la constancia y la comunidad.',
 
   'runs.title': 'Únete a una quedada',
-  'runs.body': 'Organizamos todas las salidas a través de Meetup. Mira la lista de eventos, elige un horario que te venga bien y confirma tu asistencia para que sepamos que vienes.',
+  'runs.body': 'Organizamos todas las salidas a través de Meetup.\nMira la lista de eventos, elige un horario que te venga bien y confirma tu asistencia para que sepamos que vienes.',
   'runs.how.title': 'Cómo unirte',
-  'runs.how.steps': '1. Visita nuestra página de Meetup\n2. Únete al grupo Valencia Social Runners\n3. Apúntate a un evento y ven al punto de encuentro',
+  'runs.how.steps': '1.\nVisita nuestra página de Meetup\n2.\nÚnete al grupo Valencia Social Runners\n3.\nApúntate a un evento y ven al punto de encuentro',
   'runs.how.cta': 'Ver próximas quedadas en Meetup →',
-
-  'first5k.title': 'Primer 5K',
-  'first5k.subtitle': 'Coaching 1:1 para principiantes, centrado en crear el hábito de correr, empezar con seguridad y avanzar hacia tu primer 5K.',
-  'first5k.who.title': 'Para quién es',
-  'first5k.who.body': 'Si eres nuevo en el running (o vuelves después de un tiempo sin correr), quieres evitar las lesiones típicas de principiante y prefieres un plan claro en lugar de ir probando por tu cuenta, esto es para ti.',
-  'first5k.goal.title': 'Objetivo del coaching',
-  'first5k.goal.body': 'El objetivo principal es ayudarte a desarrollar un hábito de running sostenible y a empezar a correr con seguridad, con la visión a medio plazo de completar tu primer 5K. El tiempo que necesitas para llegar a 5K de forma cómoda dependerá de tu estado actual, tu historial de lesiones y el compromiso que puedas tener con el entrenamiento.',
-  'first5k.how.title': 'Cómo funciona el 1:1',
-  'first5k.how.body.part1': 'Trabajarás 1:1 con un coach de running certificado por UESCA.',
-  'first5k.how.body.part2': 'Empezamos con una breve conversación sobre tus objetivos, tu experiencia y tu horario, y a partir de ahí diseñamos un plan realista que encaje con tu vida y tu historial deportivo.',
-  'first5k.included.title': 'Qué incluye',
-  'first5k.included.items': '• Plan personalizado para principiantes, centrado en el hábito y la seguridad\n• Progresión gradual con rodajes suaves y bloques de correr–caminar\n• Seguimiento 1:1 semanal (mensaje o llamada) para revisar sensaciones y ajustar el plan\n• Consejos prácticos sobre ritmos, calentamientos y recuperación para que empieces con confianza',
-  'first5k.start.title': 'Cómo empezar',
-  'first5k.start.body': 'Si te interesa el coaching 1:1 Primer 5K, contacta con la persona organizadora del grupo a través de la página de Valencia Social Runners en Meetup y comenta que quieres información sobre la opción de coaching Primer 5K.',
-  'first5k.start.cta': 'Contactar con la organización en Meetup →',
-  'first5k.testimonials.title': 'Lo que dicen los corredores',
-  'first5k.testimonials.quote1.text': '«Pasé de no poder trotar dos minutos seguidos a correr mi primer 5K sin parar. El plan siempre me pareció asumible y las revisiones semanales me ayudaron a no dejarlo.»',
-  'first5k.testimonials.quote1.name': '— Laura, nueva corredora',
-  'first5k.testimonials.quote2.text': '«Había intentado planes tipo “couch-to-5K” varias veces y siempre los abandonaba. El coaching 1:1 me permitió adaptar todo a mi trabajo y a mi familia, y por fin he creado un hábito que se siente sostenible.»',
-  'first5k.testimonials.quote2.name': '— David, padre con poco tiempo',
 
   'blog.title': 'Desde el blog',
   'blog.subtitle': 'Artículos ocasionales sobre running.',
   'blog.seeMore': 'VER MÁS',
+
   'blog.post1.imageAlt': 'Corredor estirando al aire libre antes de entrenar',
   'blog.post1.tag': 'Running',
   'blog.post1.readTime': '• 3 min de lectura',
   'blog.post1.title': '3 errores que frenan tu progreso como corredor (y cómo solucionarlos)',
   'blog.post1.excerpt': 'Errores de entrenamiento habituales que te frenan sin darte cuenta y formas prácticas de corregirlos.',
   'blog.post1.cta': 'Leer más →',
+
   'blog.post2.imageAlt': 'Grupo de corredores entrenando con un coach junto al agua',
   'blog.post2.tag': 'Running',
   'blog.post2.readTime': '• 4 min de lectura',
@@ -63,6 +42,6 @@ window.LOCALE_ES = {
   'blog.post2.cta': 'Leer más →',
 
   'footer.copy.prefix': '© ',
-  'footer.copy.suffix': ' Social Runners. Todos los derechos reservados.',
+  'footer.copy.suffix': ' Social Runners.\nTodos los derechos reservados.',
   'footer.backToTop': 'Volver arriba ↑'
 };
