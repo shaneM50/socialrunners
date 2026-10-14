@@ -4,15 +4,13 @@ A welcoming, bilingual running-community website for Social Runners Valencia, Sp
 
 * Live site: [socialrunners.es](https://socialrunners.es/)
 * Meetup: [Valencia Social Runners](https://www.meetup.com/valencia-social-runners/)
-* Blog: [Social Runners blog](https://socialrunners.wixsite.com/socialrunners/blog)
 
 ## Features
 
 * Responsive single-page website built with HTML, CSS, and vanilla JavaScript
 * English and Spanish language toggle with persisted language preference
 * Mobile navigation with hamburger-menu behavior
-* Blog carousel with button and touch-swipe navigation
-* Community overview, group-run instructions, blog cards, and external calls to action
+* Community overview, group-run instructions, and external calls to action
 * SEO and social-sharing metadata, favicon, and custom-domain configuration
 * Responsive layout for desktop, tablet, and mobile screens
 
